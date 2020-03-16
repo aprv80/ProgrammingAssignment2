@@ -1,7 +1,12 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+# This takes the matrix and calculates the inverse using solve function. The base
+# file is taken from Assignment 2 of RDPENG. 
+
 ## Write a short comment describing this function
+# This function gets the value of a matrix and chaches it using the <<- operator
+# and assigns it to the object outside the function
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -19,6 +24,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## The function takes the previous function and checks for cached value. if cache
+# value is present then it prints from chache, if not then solves for the inverse.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
